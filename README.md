@@ -17,15 +17,15 @@ To import this snippet into Visual Studio, follow these steps
 
 ### Create a `Mock`
 
-<img src="/canro91/VSMoqSnippets/raw/master/assets/NewMock.gif" alt="mn to create a Mock" width="400" height="300">
+<img src="/assets/NewMock.gif" alt="mn to create a Mock" width="400" height="300">
 
 ### `Setup` and `Return`
 
-<img src="/canro91/VSMoqSnippets/raw/master/assets/Return.gif" alt="mr to Setup/Return" width="400" height="300">
+<img src="/assets/Return.gif" alt="mr to Setup/Return" width="400" height="300">
 
 ### `Setup` and `Throws`
 
-<img src="/canro91/VSMoqSnippets/raw/master/assets/Throw.gif" alt="mt to Setup/Throws" width="400" height="300">
+<img src="/assets/Throw.gif" alt="mt to Setup/Throws" width="400" height="300">
 
 ## Snippets 
 
