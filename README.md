@@ -23,9 +23,9 @@ To import this snippet into Visual Studio, follow these steps
 
 <img src="/assets/Return.gif" alt="mr to Setup/Return" width="400" height="300">
 
-### `Setup` and `Throws`
+### `Setup` and `ThrowsException`
 
-<img src="/assets/Throw.gif" alt="mt to Setup/Throws" width="400" height="300">
+<img src="/assets/Throw.gif" alt="mt to Setup/ThrowsException" width="400" height="300">
 
 ## Snippets 
 
@@ -34,7 +34,7 @@ To import this snippet into Visual Studio, follow these steps
 | `mn→` | Create a new `Mock` |
 | `mr→` | `Setup` and `Return` with a mock |
 | `mra→` | `Setup` and `ReturnAsync` with a mock |
-| `mt→` | `Setup` and `Throws` with a mock |
-| `mta→` | `Setup` and `ThrowsAsync` with a mock |
+| `mt→` | `Setup` and `ThrowsException` with a mock |
+| `mta→` | `Setup` and `ThrowsExceptionAsync` with a mock |
 | `mi→` | Create `It.Is` parameter inside a mock |
 | `mia→` | Create `It.IsAny` parameter inside a mock |
