@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Create a new Mock with Moq</Title>
+      <Shortcut>mn</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[var $Name$ = new Mock<$Type$>();$end$]]>
+      </Code>
+	  <Declarations>
+		<Literal>
+		  <ID>Name</ID>
+		  <ToolTip>Variable Name</ToolTip>
+		  <Default>mock</Default>
+		</Literal>
+		<Literal>
+		  <ID>Type</ID>
+		  <ToolTip>Variable Name</ToolTip>
+		  <Default></Default>
+		</Literal>
+	  </Declarations>
+      <Imports>
+        <Import>
+          <Namespace>Moq</Namespace>
+        </Import>
+      </Imports>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Setup a method and Returns with a Mock</Title>
+      <Shortcut>mr</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[$Name$.Setup(t => t.$Method$).Returns($Value$);$end$]]>
+      </Code>
+	  <Declarations>
+		<Object>
+		  <ID>Name</ID>
+		  <ToolTip>Variable Name</ToolTip>
+		  <Default>mock</Default>
+		</Object>
+		<Literal>
+		  <ID>Method</ID>
+		  <ToolTip>Method to Setup</ToolTip>
+		  <Default></Default>
+		</Literal>
+		<Object>
+		  <ID>Value</ID>
+		  <ToolTip>Value to Return</ToolTip>
+		  <Default></Default>
+		</Object>
+	  </Declarations>
+	  <Imports>
+        <Import>
+          <Namespace>Moq</Namespace>
+        </Import>
+      </Imports>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Setup a method and ReturnsAsync with a Mock</Title>
+      <Shortcut>mra</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[$Name$.Setup(t => t.$Method$).ReturnsAsync($Value$);$end$]]>
+      </Code>
+	  <Declarations>
+		<Object>
+		  <ID>Name</ID>
+		  <ToolTip>Variable Name</ToolTip>
+		  <Default>mock</Default>
+		</Object>
+		<Literal>
+		  <ID>Method</ID>
+		  <ToolTip>Method to Setup</ToolTip>
+		  <Default></Default>
+		</Literal>
+		<Object>
+		  <ID>Value</ID>
+		  <ToolTip>Value to Return</ToolTip>
+		  <Default></Default>
+		</Object>
+	  </Declarations>
+	  <Imports>
+        <Import>
+          <Namespace>Moq</Namespace>
+        </Import>
+      </Imports>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Setup a method and Throws with a Mock</Title>
+      <Shortcut>mt</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[$Name$.Setup(t => t.$Method$).Throws($Value$);$end$]]>
+      </Code>
+	  <Declarations>
+		<Object>
+		  <ID>Name</ID>
+		  <ToolTip>Variable Name</ToolTip>
+		  <Default>mock</Default>
+		</Object>
+		<Literal>
+		  <ID>Method</ID>
+		  <ToolTip>Method to Setup</ToolTip>
+		  <Default></Default>
+		</Literal>
+		<Object>
+		  <ID>Value</ID>
+		  <ToolTip>Exception to throw</ToolTip>
+		  <Default></Default>
+		</Object>
+	  </Declarations>
+	  <Imports>
+        <Import>
+          <Namespace>Moq</Namespace>
+        </Import>
+      </Imports>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Setup a method and ThrowsAsync with a Mock</Title>
+      <Shortcut>mta</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[$Name$.Setup(t => t.$Method$).ThrowsAsync($Value$);$end$]]>
+      </Code>
+	  <Declarations>
+		<Object>
+		  <ID>Name</ID>
+		  <ToolTip>Variable Name</ToolTip>
+		  <Default>mock</Default>
+		</Object>
+		<Literal>
+		  <ID>Method</ID>
+		  <ToolTip>Method to Setup</ToolTip>
+		  <Default></Default>
+		</Literal>
+		<Object>
+		  <ID>Value</ID>
+		  <ToolTip>Exception to throw</ToolTip>
+		  <Default></Default>
+		</Object>
+	  </Declarations>
+	  <Imports>
+        <Import>
+          <Namespace>Moq</Namespace>
+        </Import>
+      </Imports>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Create a parameter with Moq</Title>
+      <Shortcut>mi</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[It.Is<$Type$>(t => t.$Predicate$);$end$]]>
+      </Code>
+	  <Declarations>
+		<Literal>
+		  <ID>Type</ID>
+		  <ToolTip>Parameter Type</ToolTip>
+		  <Default></Default>
+		</Literal>
+		<Literal>
+		  <ID>Predicate</ID>
+		  <ToolTip>It.Is Predicate</ToolTip>
+		  <Default></Default>
+		</Literal>
+	  </Declarations>
+      <Imports>
+        <Import>
+          <Namespace>Moq</Namespace>
+        </Import>
+      </Imports>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Create any parameter with Moq</Title>
+      <Shortcut>mia</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[It.IsAny<$Type$>();$end$]]>
+      </Code>
+	  <Declarations>
+		<Literal>
+		  <ID>Type</ID>
+		  <ToolTip>Parameter Type</ToolTip>
+		  <Default></Default>
+		</Literal>
+	  </Declarations>
+      <Imports>
+        <Import>
+          <Namespace>Moq</Namespace>
+        </Import>
+      </Imports>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
