@@ -36,5 +36,5 @@ To import this snippet into Visual Studio, follow these steps
 | `mra→` | `Setup` and `ReturnAsync` with a mock |
 | `mt→` | `Setup` and `Throws` with a mock |
 | `mta→` | `Setup` and `ThrowsAsync` with a mock |
-| `mi→` | Create a parameter inside a mock |
-| `mta→` | Create any parameter inside a mock |
+| `mi→` | Create `It.Is` parameter inside a mock |
+| `mia→` | Create `It.IsAny` parameter inside a mock |
