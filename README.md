@@ -38,3 +38,4 @@ To import this snippet into Visual Studio, follow these steps
 | `mta→` | `Setup` and `ThrowsExceptionAsync` with a mock |
 | `mi→` | Create `It.Is` parameter inside a mock |
 | `mia→` | Create `It.IsAny` parameter inside a mock |
+| `mv→` | `Verify` a mock was called with `Times.Exactly` |
