@@ -211,4 +211,37 @@
       </Imports>
     </Snippet>
   </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Verify Mock is Called</Title>
+      <Shortcut>mv</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[$Name$.Verify(t => t.$Method$, Times.Exactly($Times$));$end$]]>
+      </Code>
+	  <Declarations>
+		<Object>
+		  <ID>Name</ID>
+		  <ToolTip>Variable Name</ToolTip>
+		  <Default>mock</Default>
+		</Object>
+		<Literal>
+		  <ID>Method</ID>
+		  <ToolTip>Method to Verify</ToolTip>
+		  <Default>method</Default>
+		</Literal>
+		<Literal>
+		  <ID>Times</ID>
+		  <ToolTip>Number of times the moq should be called</ToolTip>
+		  <Default>1</Default>
+		</Literal>
+	  </Declarations>
+	  <Imports>
+        <Import>
+          <Namespace>Moq</Namespace>
+        </Import>
+      </Imports>
+    </Snippet>
+  </CodeSnippet>
 </CodeSnippets>
